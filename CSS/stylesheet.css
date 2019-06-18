@@ -1,0 +1,2878 @@
+/*/////////////////////////// DEFAULT SETTINGS ///////////////////////////*/
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+/*/////////////////////////// STYLING THE WEBSITE ///////////////////////////*/
+
+
+/*/////////////////////////// HOME PAGE ///////////////////////////*/
+
+
+/*//////////// Home Header ////////////*/
+
+div#div-background {
+    z-index: -100;
+    position: absolute;
+    min-width: 100%;
+}
+
+img#home-background {
+    width: 100%;
+    height: auto;
+    filter: brightness(80%);
+}
+
+div.nav {
+    z-index: 100;
+    display: flex;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 200%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a#home,
+a#themes,
+a#behind,
+a#about {
+    color: white;
+}
+
+a#home:hover,
+a#themes:hover,
+a#behind:hover,
+a#about:hover {
+    border-bottom: 1px solid white;
+}
+
+a:active {
+    border-bottom: 1px solid white;
+}
+
+div#nav1 {
+    display: flex;
+    margin-left: 2%;
+}
+
+a#home {
+    margin-right: 20%;
+}
+
+div.logo-menu {
+    display: flex;
+    height: 15vh;
+    margin-top: 1%;
+    margin-left: 1%;
+    justify-content: center;
+}
+
+div#nav2 {
+    display: flex;
+    margin-right: 3.25%;
+}
+
+a#behind {
+    margin-left: -15%;
+}
+
+a#about {
+    margin-left: 20%;
+}
+
+div#home-description {
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    margin-left: 65%;
+    margin-top: 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #FAED25;
+    font-size: 4vw;
+    animation: fadeIn 4s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+/*//////////// Home Main ////////////*/
+
+
+main#main-home {
+    width: 100%;
+    margin-top: 18%;
+}
+
+div#welcome-text-background {
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+    background-color: #FAED25;
+    overflow-x: hidden;
+}
+
+div#welcome-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2.5vh;
+    width: 50%;
+    line-height: 1.6;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow-x: hidden;
+}
+
+
+/*//////////// Home Footer ////////////*/
+
+
+footer#footer-settings {
+    margin-top: 12%;
+    overflow-x: hidden;
+}
+
+div#footer-flexbox {
+    display: flex;
+    height: 2%;
+    justify-content: center;
+}
+
+img#facebook {
+    max-height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+img#instagram {
+    max-height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+img#linkedin {
+    max-height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+img#e-mail {
+    max-height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+/*/////////////////////////// THEMES PAGE ///////////////////////////*/
+
+
+/*//////////// Themes Header ////////////*/
+
+div#themes-description {
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+
+/*//////////// Themes Main ////////////*/
+
+main#main-themes {
+    width: 100%;
+    margin-top: 18%;
+}
+
+div#first-themes {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding-bottom: 5%;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div#basic-web-theme {
+    display: flex;
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    border: solid 20px black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+    color: #FAED25;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vw;
+    transition: transform .2s;
+}
+
+div#basic-web-theme:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+div#basic-animation-theme {
+    display: flex;
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    border: solid 20px black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+    background-color: #FAED25;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    transition: transform .2s;
+}
+
+div#basic-animation-theme:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+div#second-themes {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+div#basic-content-theme {
+    display: flex;
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    border: solid 20px #FAED25;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5vw;
+    transition: transform .2s;
+}
+
+div#basic-content-theme:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+div#basic-ux-theme {
+    display: flex;
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    border: solid 20px #FAED25;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5vw;
+    transition: transform .2s;
+}
+
+div#basic-ux-theme:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*/////////////////////////// BEHIND PAGE ///////////////////////////*/
+
+body#body-behind {
+    overflow-x: hidden;
+}
+
+/*//////////// Behind Header ////////////*/
+
+div#behind-description {
+    display: flex;
+    width: 30%;
+    flex-wrap: wrap;
+    margin-left: 65%;
+    margin-top: 17%;
+}
+
+/*//////////// Behind Main ////////////*/
+
+main#main-behind {
+    width: 100%;
+    margin-top: 16%;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FAED25;
+    font-size: 200%;
+}
+
+div#behind-first-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+}
+
+div#how-did-it-start {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#photo-photoshoot {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+img#me-at-photoshoot {
+    width: 100%;
+}
+
+div#behind-second-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+div#what-was-next {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#wireframes-box {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+div#behind-third-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+div#wait-wait-design {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#behind-fourth-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+div#moodboard-image {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#style-tile-image {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+div#behind-fifth-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+div#thats-it-code {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#was-it-easy {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+div#about-cv-align {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+div#about-cv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+}
+
+
+
+/*/////////////////////////// ABOUT PAGE ///////////////////////////*/
+
+body#body-about {
+    overflow-x: hidden;
+}
+
+/*//////////// About Header ////////////*/
+
+div#about-description {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    margin-left: 65%;
+    margin-top: 10%;
+}
+
+/*//////////// About Main ////////////*/
+
+main#main-about {
+    width: 100%;
+    margin-top: 20%;
+    overflow-x: hidden;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FAED25;
+    font-size: 200%;
+}
+
+div#about-first-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+}
+
+div#who-am-i {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#what-do-i-do {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+div#about-second-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+div#why-do-i-do {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#the-field-of-expertise {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+div#about-cv-align {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+div#about-cv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+}
+
+
+a#cv-link {
+    color: #FAED25;
+}
+
+a#cv-link:hover {
+    color: #FAED25;
+    text-decoration: underline;
+}
+
+a#cv-link:visited {
+    color: #FAED25;
+}
+
+
+/*/////////////////////////// BASIC WEB PAGE ///////////////////////////*/
+
+
+/*//////////// Basic Web Header ////////////*/
+
+div#basic-web-description {
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+    margin-left: 60%;
+    margin-top: 17%;
+}
+
+/*//////////// Basic Web Main ////////////*/
+
+main#main-basic-web {
+    width: 100%;
+    margin-top: 17%;
+}
+
+div#basic-web-information {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+}
+
+div#basic-web-general-information {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#basic-web-purpose {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+div#basic-web-projects {
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+    background-color: #FAED25;
+    margin-top: 3%;
+}
+
+div#basic-web-projects-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h3#projects {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 200%;
+    text-align: center;
+}
+
+div#responsive-website {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: center;
+}
+
+a#responsive-website-link {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 70%;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: solid 2px #FDF8A8;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #FAED25;
+    font-size: 150%;
+    padding: 2%;
+}
+
+div#responsive-website-text {
+    margin-top: 3%;
+}
+
+div#project-subheadlines {
+    font-size: 120%;
+}
+
+a#projects-tasks-link,
+a#projects-tasks-link:visited,
+a#projects-tasks-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+
+/*/////////////////////////// BASIC ANIMATION PAGE ///////////////////////////*/
+
+
+/*//////////// Basic Animation Header ////////////*/
+
+div#basic-animation-description {
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+    margin-left: 65%;
+    margin-top: 15%;
+}
+
+/*//////////// Basic Animation Main ////////////*/
+
+main#main-basic-animation {
+    width: 100%;
+    margin-top: 12%;
+}
+
+div#basic-animation-information {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+}
+
+div#basic-animation-general-information {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#basic-animation-purpose {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+div#basic-animation-projects {
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+    background-color: #FAED25;
+    margin-top: 3%;
+}
+
+div#basic-animation-projects-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h3#projects {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 200%;
+    text-align: center;
+}
+
+div#week-submission {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: center;
+}
+
+a#week-submission-link {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 70%;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: solid 2px #FDF8A8;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #FAED25;
+    font-size: 150%;
+    padding: 2%;
+}
+
+div#week-submission-text {
+    margin-top: 3%;
+}
+
+div#group-animation {
+    display: flex;
+    margin-top: 14%;
+    width: 100%;
+    justify-content: center;
+}
+
+div#group-animation2 {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: center;
+}
+
+a#group-animation-link {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 70%;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: solid 2px #FDF8A8;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #FAED25;
+    font-size: 150%;
+    padding: 2%;
+}
+
+div#group-animation-text {
+    margin-top: 3%;
+}
+
+
+/*/////////////////////////// BASIC CONTENT PAGE ///////////////////////////*/
+
+
+/*//////////// Basic Content Header ////////////*/
+
+div#basic-content-description {
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+    margin-left: 60%;
+    margin-top: 15%;
+}
+
+/*//////////// Basic Content Main ////////////*/
+
+main#main-basic-content {
+    width: 100%;
+    margin-top: 16%;
+}
+
+div#basic-content-information {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+}
+
+div#basic-content-general-information {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#basic-content-purpose {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+div#basic-content-projects {
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+    background-color: #FAED25;
+    margin-top: 3%;
+}
+
+div#basic-content-projects-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h3#projects {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 200%;
+    text-align: center;
+}
+
+div#bicycle-guide {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: center;
+}
+
+div#bicycle-guide2 {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: center;
+}
+
+div#bicycle-guide3 {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: center;
+}
+
+div#bicycle-guide4 {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: center;
+}
+
+a#bicycle-guide-link {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 70%;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: solid 2px #FDF8A8;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #FAED25;
+    font-size: 150%;
+    padding: 2%;
+}
+
+div#bicycle-guide-text {
+    margin-top: 3%;
+}
+
+
+/*/////////////////////////// BASIC UX PAGE ///////////////////////////*/
+
+
+/*//////////// Basic UX Header ////////////*/
+
+div#basic-ux-description {
+    display: flex;
+    width: 35%;
+    flex-wrap: wrap;
+    margin-left: 65%;
+    margin-top: 18%;
+}
+
+/*//////////// Basic UX Main ////////////*/
+
+main#main-basic-ux {
+    width: 100%;
+    margin-top: 12%;
+}
+
+div#basic-ux-information {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    width: 100%;
+    justify-content: center;
+}
+
+div#basic-ux-general-information {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-right: 2%;
+}
+
+div#basic-ux-purpose {
+    display: flex;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border: solid 2px #FDF8A8;
+    padding: 1%;
+    margin-left: 2%;
+}
+
+div#basic-ux-projects {
+    display: flex;
+    justify-content: center;
+    min-height: 20vh;
+    background-color: #FAED25;
+    margin-top: 3%;
+}
+
+div#basic-ux-projects-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h3#projects {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 200%;
+    text-align: center;
+}
+
+div#design-sprint {
+    display: flex;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: center;
+}
+
+a#design-sprint-link {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 70%;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: solid 2px #FDF8A8;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #FAED25;
+    font-size: 150%;
+    padding: 2%;
+}
+
+div#design-sprint-text {
+    margin-top: 3%;
+}
+
+div#sprint-prototype {
+    display: flex;
+    margin-top: 14%;
+    width: 100%;
+    justify-content: center;
+}
+
+a#sprint-prototype-link {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 70%;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: solid 2px #FDF8A8;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #FAED25;
+    font-size: 150%;
+    padding: 2%;
+}
+
+div#sprint-prototype-text {
+    margin-top: 3%;
+}
+
+
+
+/*/////////////////////////// MEDIA QUERIES ///////////////////////////*/
+
+/*/////////////////////////// FOR BIGGER DESKTOPS ///////////////////////////*/
+
+
+@media only screen and (min-width: 1280px) {
+
+    /*//////////// Burger menu ////////////*/
+
+    nav#burger-menu-nav {
+        display: none;
+    }
+
+
+}
+
+/*/////////////////////////// FOR SMALLER DESKTOPS ///////////////////////////*/
+@media only screen and (min-width: 801px) and (max-width: 1280px) {
+
+    /*//////////// Burger menu ////////////*/
+
+    nav#burger-menu-nav {
+        display: none;
+    }
+
+
+    /*//////////// Editing Behind Page ////////////*/
+
+    main#main-behind {
+        width: 100%;
+        margin-top: 16%;
+    }
+
+    div#behind-first-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#how-did-it-start {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#photo-photoshoot {
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+    }
+
+    div#behind-second-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#what-was-next {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#wireframes-box {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#behind-third-row {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#wait-wait-design {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#behind-fourth-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#moodboard-image {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        margin-top: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#style-tile-image {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+    div#behind-fifth-row {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#thats-it-code {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#was-it-easy {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#about-cv-align {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#about-cv {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+    /*//////////// Editing About Page ////////////*/
+
+    div#about-description {
+        display: flex;
+        width: 40%;
+        flex-wrap: wrap;
+        margin-left: 57%;
+        margin-top: 20%;
+    }
+
+    main#main-about {
+        width: 100%;
+        margin-top: 16%;
+    }
+
+    div#about-first-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#who-am-i {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#what-do-i-do {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#about-second-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#why-do-i-do {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#the-field-of-expertise {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+    div#about-cv-align {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#about-cv {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    /*//////////// Editing Basic Web Page ////////////*/
+
+
+    div#basic-web-description {
+        display: flex;
+        width: 35%;
+        flex-wrap: wrap;
+        margin-left: 60%;
+        margin-top: 14%;
+    }
+
+    main#main-basic-web {
+        width: 100%;
+        margin-top: 14%;
+    }
+
+    div#basic-web-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-web-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-web-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-web-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-web-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*//////////// Editing Basic Animation Page ////////////*/
+
+    div#basic-animation-description {
+        display: flex;
+        width: 35%;
+        flex-wrap: wrap;
+        margin-left: 65%;
+        margin-top: 10%;
+    }
+
+    main#main-basic-animation {
+        width: 100%;
+        margin-top: 14%;
+    }
+
+    div#basic-animation-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-animation-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-animation-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-animation-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-animation-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    /*//////////// Editing Basic Content Page ////////////*/
+
+    div#basic-content-description {
+        display: flex;
+        width: 35%;
+        flex-wrap: wrap;
+        margin-left: 60%;
+        margin-top: 15%;
+    }
+
+    main#main-basic-content {
+        width: 100%;
+        margin-top: 12%;
+    }
+
+    div#basic-content-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-content-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-content-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-content-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-content-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*//////////// Editing Basic UX Page ////////////*/
+
+    div#basic-ux-description {
+        display: flex;
+        width: 35%;
+        flex-wrap: wrap;
+        margin-left: 65%;
+        margin-top: 12%;
+    }
+
+    main#main-basic-ux {
+        width: 100%;
+        margin-top: 14%;
+    }
+
+    div#basic-ux-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-ux-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-ux-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-ux-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-ux-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+
+
+
+
+/*/////////////////////////// FOR TABLETS ///////////////////////////*/
+@media only screen and (min-width:601px) and (max-width: 800px) {
+
+    /*//////////// Burger menu ////////////*/
+
+    nav#burger-menu-nav {
+        display: none;
+    }
+
+    /*//////////// Editing Themes Page ////////////*/
+
+    main#main-themes {
+        width: 100%;
+        margin-top: 16%;
+    }
+
+    div#themes-box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    div#first-themes {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-web-theme {
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 280px;
+        height: 280px;
+        font-size: 230%;
+    }
+
+    div#basic-animation-theme {
+        margin: 0;
+        margin-top: 3.5%;
+        width: 280px;
+        height: 280px;
+        font-size: 230%;
+    }
+
+    div#second-themes {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-content-theme {
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 280px;
+        height: 280px;
+        font-size: 230%;
+    }
+
+    div#basic-ux-theme {
+        margin: 0;
+        margin-top: 3.5%;
+        width: 280px;
+        height: 280px;
+        font-size: 230%;
+    }
+
+
+    /*//////////// Editing Behind Page ////////////*/
+
+    div#behind-description {
+        display: flex;
+        width: 30%;
+        flex-wrap: wrap;
+        margin-left: 65%;
+        margin-top: 12%;
+    }
+
+    main#main-behind {
+        width: 100%;
+        margin-top: 15%;
+    }
+
+    div#behind-first-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#how-did-it-start {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#photo-photoshoot {
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+    }
+
+    div#behind-second-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#what-was-next {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#wireframes-box {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#behind-third-row {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#wait-wait-design {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#behind-fourth-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#moodboard-image {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        margin-top: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#style-tile-image {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+    div#behind-fifth-row {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#thats-it-code {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#was-it-easy {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#about-cv-align {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#about-cv {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+    /*//////////// Editing About Page ////////////*/
+
+    div#about-description {
+        display: flex;
+        width: 40%;
+        flex-wrap: wrap;
+        margin-left: 57%;
+        margin-top: 14%;
+    }
+
+    main#main-about {
+        width: 100%;
+        margin-top: 16%;
+    }
+
+    div#about-first-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#who-am-i {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#what-do-i-do {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#about-second-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#why-do-i-do {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#the-field-of-expertise {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+    div#about-cv-align {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#about-cv {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    /*//////////// Editing Basic Web Page ////////////*/
+
+    div#basic-web-description {
+        display: flex;
+        width: 35%;
+        flex-wrap: wrap;
+        margin-left: 60%;
+        margin-top: 14%;
+    }
+
+    main#main-basic-web {
+        width: 100%;
+        margin-top: 14%;
+    }
+
+    div#basic-web-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-web-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-web-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-web-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-web-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*//////////// Editing Basic Animation Page ////////////*/
+
+    div#basic-animation-description {
+        display: flex;
+        width: 35%;
+        flex-wrap: wrap;
+        margin-left: 65%;
+        margin-top: 10%;
+    }
+
+    main#main-basic-animation {
+        width: 100%;
+        margin-top: 14%;
+    }
+
+    div#basic-animation-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-animation-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-animation-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-animation-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-animation-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*//////////// Editing Basic Content Page ////////////*/
+
+    div#basic-content-description {
+        display: flex;
+        width: 35%;
+        flex-wrap: wrap;
+        margin-left: 60%;
+        margin-top: 15%;
+    }
+
+    main#main-basic-content {
+        width: 100%;
+        margin-top: 12%;
+    }
+
+    div#basic-content-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-content-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-content-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-content-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-content-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*//////////// Editing Basic UX Page ////////////*/
+
+    div#basic-ux-description {
+        display: flex;
+        width: 35%;
+        flex-wrap: wrap;
+        margin-left: 65%;
+        margin-top: 12%;
+    }
+
+    main#main-basic-ux {
+        width: 100%;
+        margin-top: 14%;
+    }
+
+    div#basic-ux-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-ux-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-ux-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-ux-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-ux-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+}
+
+
+
+
+/*/////////////////////////// FOR PHONES ///////////////////////////*/
+@media only screen and (max-width: 600px) {
+
+
+    /*//////////// Burger menu ////////////*/
+
+    a#burger-menu-link {
+        text-decoration: none;
+        color: #232323;
+        transition: color 0.3s ease;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        font-size: 200%;
+    }
+
+    a#burger-menu-link:hover {
+        text-decoration: underline;
+    }
+
+    #menuToggle {
+        display: block;
+        padding-top: 5%;
+        padding-left: 5%;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    #menuToggle input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+        -webkit-touch-callout: none;
+    }
+
+    #menuToggle span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: white;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+            background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+            opacity 0.55s ease;
+    }
+
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+
+    #menuToggle input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #FAED25;
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    #menuToggle input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    #menu {
+        position: absolute;
+        width: 300px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background: white;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+
+    #menu li {
+        padding: 10px 0;
+        font-size: 22px;
+    }
+
+    #menuToggle input:checked ~ ul {
+        transform: none;
+    }
+
+
+    /*//////////// Hiding Header ////////////*/
+
+    div#nav1,
+    div#nav2 {
+        display: none;
+    }
+
+    div.nav {
+        z-index: 100;
+        display: flex;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+        justify-content: center;
+    }
+
+    /*//////////// Editing Home Page ////////////*/
+
+    main#main-home {
+        margin-top: 30%;
+    }
+
+    div#home-description {
+        display: none;
+    }
+
+    div#welcome-text {
+        width: 80%;
+    }
+
+    /*//////////// Editing Themes Page ////////////*/
+
+
+    div#themes-description {
+        display: none;
+    }
+
+    main#main-themes {
+        width: 100%;
+        margin-top: 28.5%;
+    }
+
+    div#themes-box {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    div#first-themes {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-web-theme {
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 280px;
+        height: 280px;
+        font-size: 230%;
+    }
+
+    div#basic-animation-theme {
+        margin: 0;
+        margin-top: 3.5%;
+        width: 280px;
+        height: 280px;
+        font-size: 230%;
+    }
+
+    div#second-themes {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-content-theme {
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 280px;
+        height: 280px;
+        font-size: 230%;
+    }
+
+    div#basic-ux-theme {
+        margin: 0;
+        margin-top: 3.5%;
+        width: 280px;
+        height: 280px;
+        font-size: 230%;
+    }
+
+    /*//////////// Editing Behind Page ////////////*/
+
+    div#behind-description {
+        display: none;
+    }
+
+    main#main-behind {
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    div#behind-first-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#how-did-it-start {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#photo-photoshoot {
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+    }
+
+    div#behind-second-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#what-was-next {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#wireframes-box {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#behind-third-row {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#wait-wait-design {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#behind-fourth-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#moodboard-image {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        margin-top: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#style-tile-image {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+    div#behind-fifth-row {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#thats-it-code {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#was-it-easy {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#about-cv-align {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#about-cv {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+    /*//////////// Editing About Page ////////////*/
+
+    div#about-description {
+        display: none;
+    }
+
+    main#main-about {
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    div#about-first-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#who-am-i {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#what-do-i-do {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#about-second-row {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#why-do-i-do {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#the-field-of-expertise {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+
+    div#about-cv-align {
+        display: flex;
+        flex-flow: column-reverse;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#about-cv {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    /*//////////// Editing Basic Web Page ////////////*/
+
+    div#basic-web-description {
+        display: none;
+    }
+
+    main#main-basic-web {
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    div#basic-web-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-web-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-web-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-web-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-web-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    /*//////////// Editing Basic Animation Page ////////////*/
+
+    div#basic-animation-description {
+        display: none;
+    }
+
+    main#main-basic-animation {
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    div#basic-animation-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-animation-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-animation-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-animation-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-animation-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 95%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*//////////// Editing Basic Content Page ////////////*/
+
+    div#basic-content-description {
+        display: none;
+    }
+
+    main#main-basic-content {
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    div#basic-content-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-content-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-content-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-content-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-content-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /*//////////// Editing Basic UX Page ////////////*/
+
+    div#basic-ux-description {
+        display: none;
+    }
+
+    main#main-basic-ux {
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    div#basic-ux-information {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-ux-general-information {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-ux-purpose {
+        display: flex;
+        margin: 0;
+        margin-top: 3.5%;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    div#basic-ux-projects {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    div#basic-ux-projects-text {
+        display: flex;
+        margin: 0;
+        margin-bottom: 3.5%;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
